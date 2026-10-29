@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="STROYKOM — строительство и ремонт под ключ в Бишкеке">
+  <title>STROYKOM — Строительство и ремонт в Бишкеке</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">
+        <span class="logo__icon">S</span>
+        <span class="logo__text">
+          <strong>STROYKOM</strong>
+          <small>BUILDPRO KG</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#services">Услуги</a>
+        <a href="#works">Наши работы</a>
+        <a href="#about">О компании</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <a
+        class="button button--small header__button"
+        href="#"
+        target="_blank"
+        onclick="event.preventDefault();alert('Демонстрация ссылки Whatsapp')"
+      >
+        Получить расчёт
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="hero">
+      <div class="hero__overlay"></div>
+
+      <div class="container hero__content">
+        <div class="hero__badge">
+          <span></span>
+          Работаем в Бишкеке и Чуйской области
+        </div>
+
+        <h1>
+          Строительство<br>
+          и ремонт <em>под ключ</em>
+        </h1>
+
+        <p class="hero__subtitle">
+          Строим дома, делаем ремонт квартир и коммерческих помещений.
+          Честные сроки и прозрачные цены.
+        </p>
+
+        <div class="hero__buttons">
+          <a
+            class="button"
+            href="#"
+            target="_blank"
+            onclick="event.preventDefault();alert('Демонстрация ссылки Whatsapp')"
+          >
+            Рассчитать стоимость
+            <span>↗</span>
+          </a>
+
+          <a class="button button--outline" href="#works">
+            Смотреть работы
+          </a>
+        </div>
+
+        <div class="hero__numbers">
+          <div>
+            <strong>12+</strong>
+            <span>лет опыта</span>
+          </div>
+          <div>
+            <strong>180+</strong>
+            <span>объектов сдано</span>
+          </div>
+          <div>
+            <strong>5 лет</strong>
+            <span>гарантии</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">01 / НАШИ УСЛУГИ</p>
+            <h2>Воплощаем идеи<br><span>в реальные объекты</span></h2>
+          </div>
+
+          <p>
+            Берём на себя весь цикл работ — от первого замера
+            до сдачи готового объекта.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card service-card--large">
+            <span class="service-card__number">01</span>
+            <span class="service-card__icon">⌂</span>
+            <h3>Строительство<br>домов</h3>
+            <p>Проектирование и строительство частных домов под ключ.</p>
+            <strong>от 25 000 сом/м²</strong>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__number">02</span>
+            <span class="service-card__icon">▦</span>
+            <h3>Ремонт<br>квартир</h3>
+            <p>Черновой, косметический и дизайнерский ремонт.</p>
+            <strong>от 8 000 сом/м²</strong>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__number">03</span>
+            <span class="service-card__icon">▧</span>
+            <h3>Отделочные<br>работы</h3>
+            <p>Штукатурка, шпаклёвка, покраска и укладка покрытий.</p>
+            <strong>Рассчитаем смету</strong>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__number">04</span>
+            <span class="service-card__icon">⌂</span>
+            <h3>Кровля<br>и фасады</h3>
+            <p>Монтаж кровли, утепление и отделка фасада.</p>
+            <strong>Индивидуально</strong>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__number">05</span>
+            <span class="service-card__icon">⚡</span>
+            <h3>Электрика<br>и сантехника</h3>
+            <p>Полный комплекс инженерных коммуникаций.</p>
+            <strong>Рассчитаем смету</strong>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__number">06</span>
+            <span class="service-card__icon">◈</span>
+            <h3>Дизайн-<br>проект</h3>
+            <p>Функциональные интерьеры с визуализацией.</p>
+            <strong>По запросу</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about__layout">
+        <div class="about__image">
+          <img
+            src="images/blueprinting.jpg"
+            alt="Строитель на объекте"
+          >
+          <div class="about__stamp">
+            <strong>12</strong>
+            <span>лет<br>строим<br>надёжно</span>
+          </div>
+        </div>
+
+        <div class="about__content">
+          <p class="eyebrow">02 / О КОМПАНИИ</p>
+          <h2>Строим так,<br><span>как строили бы себе</span></h2>
+
+          <p class="about__lead">
+            STROYKOM — команда специалистов по строительству,
+            ремонту и отделке объектов в Бишкеке.
+          </p>
+
+          <p class="about__text">
+            Мы объединяем опыт прорабов, дизайнеров и мастеров,
+            чтобы каждый проект был выполнен качественно,
+            в согласованные сроки и без неожиданных расходов.
+          </p>
+
+          <div class="about__features">
+            <div>✓ Работаем по договору</div>
+            <div>✓ Фиксированная смета</div>
+            <div>✓ Собственные бригады</div>
+            <div>✓ Гарантия на работы</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="container">
+        <div class="section-head section-head--light">
+          <div>
+            <p class="eyebrow">03 / НАШИ ПРЕИМУЩЕСТВА</p>
+            <h2>Надёжность<br><span>на каждом этапе</span></h2>
+          </div>
+
+          <p>
+            Контролируем качество материалов, работу мастеров
+            и соблюдение сроков на каждом объекте.
+          </p>
+        </div>
+
+        <div class="advantages-grid">
+          <div class="advantage">
+            <span class="advantage__number">01</span>
+            <span class="advantage__icon">◷</span>
+            <h3>12 лет опыта</h3>
+            <p>Знаем все особенности строительства и ремонта в Бишкеке.</p>
+          </div>
+
+          <div class="advantage">
+            <span class="advantage__number">02</span>
+            <span class="advantage__icon">▣</span>
+            <h3>Свои бригады</h3>
+            <p>Работаем проверенными специалистами без случайных подрядчиков.</p>
+          </div>
+
+          <div class="advantage">
+            <span class="advantage__number">03</span>
+            <span class="advantage__icon">✓</span>
+            <h3>Прозрачная смета</h3>
+            <p>Фиксируем стоимость и заранее согласовываем все работы.</p>
+          </div>
+
+          <div class="advantage">
+            <span class="advantage__number">04</span>
+            <span class="advantage__icon">▤</span>
+            <h3>Соблюдаем сроки</h3>
+            <p>Составляем календарный план и контролируем каждый этап.</p>
+          </div>
+
+          <div class="advantage">
+            <span class="advantage__number">05</span>
+            <span class="advantage__icon">◇</span>
+            <h3>Гарантия</h3>
+            <p>Даём гарантию на выполненные строительные и отделочные работы.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section works" id="works">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">04 / НАШИ РАБОТЫ</p>
+            <h2>Объекты,<br><span>которыми гордимся</span></h2>
+          </div>
+
+          <a class="text-link" href="#form">Обсудить проект ↗</a>
+        </div>
+
+        <div class="works-grid">
+          <article class="work-card work-card--wide">
+            <img src="images/modern-private-house.jpg" alt="Современный частный дом">
+            <div class="work-card__caption">
+              <span>01 / ЧАСТНЫЙ ДОМ</span>
+              <h3>Частный дом, 180 м²</h3>
+              <p>Аламедин</p>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <img src="images/flat-interior.jpg" alt="Интерьер квартиры">
+            <div class="work-card__caption">
+              <span>02 / РЕМОНТ</span>
+              <h3>Квартира, 65 м²</h3>
+              <p>Южные ворота</p>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <img src="images/guestroom-renovated.jpg" alt="Гостиная после ремонта">
+            <div class="work-card__caption">
+              <span>03 / ДИЗАЙН</span>
+              <h3>Квартира, 92 м²</h3>
+              <p>Центр Бишкека</p>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <img src="images/modern-kitchen.jpg" alt="Современная кухня">
+            <div class="work-card__caption">
+              <span>04 / ОТДЕЛКА</span>
+              <h3>Кухня-гостиная, 38 м²</h3>
+              <p>Микрорайон Асанбай</p>
+            </div>
+          </article>
+
+          <article class="work-card work-card--wide">
+            <img src="images/house-interior.jpg" alt="Интерьер дома">
+            <div class="work-card__caption">
+              <span>05 / КОММЕРЧЕСКИЙ ОБЪЕКТ</span>
+              <h3>Офисное пространство, 240 м²</h3>
+              <p>Бишкек</p>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <img src="images/bedroom-renovation.jpg" alt="Ремонт спальни">
+            <div class="work-card__caption">
+              <span>06 / РЕМОНТ</span>
+              <h3>Дом, 210 м²</h3>
+              <p>Кок-Жар</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps">
+      <div class="container">
+        <div class="section-head section-head--light">
+          <div>
+            <p class="eyebrow">05 / КАК МЫ РАБОТАЕМ</p>
+            <h2>От идеи<br><span>до готового объекта</span></h2>
+          </div>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step">
+            <span>01</span>
+            <h3>Заявка и консультация</h3>
+            <p>Обсуждаем задачу, пожелания и примерный бюджет.</p>
+          </div>
+
+          <div class="step">
+            <span>02</span>
+            <h3>Выезд и замер</h3>
+            <p>Специалист приезжает на объект и делает замеры.</p>
+          </div>
+
+          <div class="step">
+            <span>03</span>
+            <h3>Составление сметы</h3>
+            <p>Рассчитываем стоимость материалов и работ.</p>
+          </div>
+
+          <div class="step">
+            <span>04</span>
+            <h3>Договор</h3>
+            <p>Фиксируем сроки, стоимость и этапы выполнения.</p>
+          </div>
+
+          <div class="step">
+            <span>05</span>
+            <h3>Выполнение работ</h3>
+            <p>Бригада выполняет работы под контролем прораба.</p>
+          </div>
+
+          <div class="step">
+            <span>06</span>
+            <h3>Сдача объекта</h3>
+            <p>Проверяем результат и передаём готовый объект.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">06 / ОТЗЫВЫ</p>
+            <h2>Нас рекомендуют<br><span>своим близким</span></h2>
+          </div>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review">
+            <div class="review__stars">★★★★★</div>
+            <p>
+              «Заказывали ремонт квартиры под ключ. Понравилось,
+              что смета не менялась в процессе, а прораб всегда
+              был на связи. Получилось даже лучше, чем ожидали».
+            </p>
+            <strong>— Айдана Т.</strong>
+            <span>Ремонт квартиры, 78 м²</span>
+          </article>
+
+          <article class="review">
+            <div class="review__stars">★★★★★</div>
+            <p>
+              «STROYKOM строили наш дом в Кок-Жаре. Все этапы были
+              расписаны заранее, материалы закупали согласованно.
+              Дом сдали вовремя».
+            </p>
+            <strong>— Бакытбек А.</strong>
+            <span>Строительство дома, 165 м²</span>
+          </article>
+
+          <article class="review">
+            <div class="review__stars">★★★★★</div>
+            <p>
+              «Делали офис и фасад коммерческого помещения.
+              Благодарю команду за аккуратность, скорость
+              и нормальную коммуникацию».
+            </p>
+            <strong>— Руслан К.</strong>
+            <span>Коммерческий объект, 220 м²</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="request" id="form">
+      <div class="container request__layout">
+        <div class="request__content">
+          <p class="eyebrow">07 / ОСТАВИТЬ ЗАЯВКУ</p>
+          <h2>Рассчитаем стоимость<br><span>вашего проекта</span></h2>
+          <p>
+            Оставьте заявку — перезвоним в течение 15 минут,
+            ответим на вопросы и предложим оптимальное решение.
+          </p>
+
+          <div class="request__phone">
+            <span>Или напишите напрямую</span>
+            <a
+              href="#"
+              target="_blank"
+              onclick="event.preventDefault();alert('Демонстрация ссылки Whatsapp')"
+            >
+              WhatsApp: +996 555 123 456 ↗
+            </a>
+          </div>
+        </div>
+
+        <form class="request-form" id="requestForm">
+          <label>
+            Ваше имя
+            <input type="text" id="name" placeholder="Например, Азамат" required>
+          </label>
+
+          <label>
+            Номер телефона
+            <input type="tel" id="phone" placeholder="+996 555 123 456" required>
+          </label>
+
+          <label>
+            Тип работ
+            <select id="workType" required>
+              <option value="">Выберите тип работ</option>
+              <option>Строительство частного дома</option>
+              <option>Ремонт квартиры</option>
+              <option>Отделочные работы</option>
+              <option>Кровля и фасад</option>
+              <option>Электрика и сантехника</option>
+              <option>Дизайн-проект</option>
+            </select>
+          </label>
+
+          <button class="button button--full" type="submit">
+            <a
+              href="#"
+              target="_blank"
+              onclick="event.preventDefault();alert('Демонстрация ссылки Whatsapp')"
+            >
+              Получить расчёт в WhatsApp <span>↗</span>
+            </a>
+          </button>
+
+        </form>
+      </div>
+    </section>
+
+    <section class="section contacts" id="contacts">
+      <div class="container contacts__layout">
+        <div>
+          <p class="eyebrow">08 / КОНТАКТЫ</p>
+          <h2>Давайте обсудим<br><span>ваш проект</span></h2>
+
+          <div class="contact-list">
+            <div>
+              <small>АДРЕС ОФИСА</small>
+              <p>г. Бишкек, ул. Ахунбаева, 120</p>
+            </div>
+
+            <div>
+              <small>ТЕЛЕФОН / WHATSAPP</small>
+              <p><span>+996 555 123 456</span></p>
+            </div>
+
+            <div>
+              <small>ЧАСЫ РАБОТЫ</small>
+              <p>Пн–Сб: 09:00 — 19:00</p>
+            </div>
+
+            <div>
+              <small>EMAIL</small>
+              <p><span>info@stroykom.kg</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="map">
+          <iframe
+            title="Карта центра Бишкека"
+            src="https://maps.google.com/maps?q=Bishkek%20Kyrgyzstan&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__top">
+      <a href="#hero" class="logo">
+        <span class="logo__icon">S</span>
+        <span class="logo__text">
+          <strong>STROYKOM</strong>
+          <small>BUILDPRO KG</small>
+        </span>
+      </a>
+
+      <p>Строительство и ремонт под ключ в Бишкеке</p>
+
+      <div class="footer__socials">
+        <a href="#">Instagram</a>
+          <a
+            href="#"
+            target="_blank"
+            onclick="event.preventDefault();alert('Демонстрация ссылки Whatsapp')"
+          >
+            WhatsApp
+          </a>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <span>© 2024 STROYKOM</span>
+      <span>качество. сроки. результат.</span>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">
+    Заявка подготовлена. Сейчас откроется WhatsApp.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
